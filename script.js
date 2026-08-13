@@ -60,6 +60,7 @@ button.onclick = function () {
         // tasks saved in (saved) array 
         saved.push([text, false])
         let task = saved[saved.length - 1]
+        localStorage.setItem("tasks", JSON.stringify(saved))
         console.log(saved)
 
 
