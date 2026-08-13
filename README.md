@@ -1,4 +1,4 @@
-A simple and interactive To-Do List built using HTML, CSS, and JavaScript.
+# A simple and interactive To-Do List built using HTML, CSS, and JavaScript.
 
 This project was created to practice JavaScript DOM manipulation, arrays, event handling, and browser localStorage.
 
