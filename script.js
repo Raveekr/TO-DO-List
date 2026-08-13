@@ -8,7 +8,10 @@ let saved = []
 // To get saved data from localStorage
 let stored = localStorage.getItem("tasks")
 console.log(stored)
-saved = JSON.parse(stored)
+
+if (stored) {
+    saved = JSON.parse(stored)
+}
 
 // Recreate li using saved data
 saved.forEach(function (task) {
