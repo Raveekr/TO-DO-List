@@ -1,2 +1,37 @@
-# TO-DO-List
-This is a simple TO-DO List created using HTML, CSS &amp; JS. It has feature to mark completed once a task is done, feature to remember the tasks even after refreshing the page or reopening it. There is delete button if the tasks in the list is no longer available and the local storage remembers all these things while reloading the page.
+A simple and interactive To-Do List built using HTML, CSS, and JavaScript.
+
+This project was created to practice JavaScript DOM manipulation, arrays, event handling, and browser localStorage.
+
+🚀 Features
+Add new tasks
+Delete tasks
+Mark tasks as completed with a strikethrough
+Toggle completed/uncompleted status
+Tasks remain saved after page refresh
+Completed task status is also preserved after refresh
+Prevents adding empty tasks
+
+🛠️ Technologies Used
+HTML5
+CSS3
+JavaScript
+Local Storage API
+
+🧠 JavaScript Concepts Practiced
+querySelector()
+onclick
+createElement()
+append()
+classList.toggle()
+Arrays
+push()
+filter()
+forEach()
+JSON.stringify()
+JSON.parse()
+localStorage.setItem()
+localStorage.getItem()
+
+# Responsive design for all the devices
+
+<img width="1264" height="831" alt="image" src="https://github.com/user-attachments/assets/7450fb28-bcfc-44a3-b73f-a5770f658245" />
