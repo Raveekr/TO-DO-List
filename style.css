@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+}
+
+.container{
+    width: 500px;
+    min-height: 400px;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 25px;
+    font-family:monospace;
+}
+
+.inputbox{
+    display: flex;
+    gap: 10px;
+}
+
+.inputbox input{
+    flex: 1;
+    padding: 10px;
+}
+
+.inputbox button{
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.tasklist{
+    margin-top: 25px;
+    
+}
+.completed{
+    text-decoration: line-through;
+    
+}
+.tasklist li{
+    font-size: 20px;
+    margin: 10px;
+}
+.tasklist li:hover{
+    cursor: pointer;
+}
+.deletebtn{
+    padding: 2px 5px;
+    background: rgb(35, 74, 59);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.title{
+    font-size: 18px;
+    font-family: Times, serif;
+    color: rgb(103, 12, 12);
+    margin-bottom: 20px;
+}
+@media screen and (max-width : 540px)  {
+ 
+    .container{
+        width: 400px;
+        height: 300px;
+
+    }
+    .tasklist li{
+    font-size: 18px;
+    margin: 7px;
+}
+.title{
+    font-size: 16px;
+  
+}
+}
+@media screen and (max-width : 420px)  {
+   .container{
+        width: 300px;
+        height: 200px;
+
+    }
+    .title{
+    font-size: 14px;
+  
+}
+  .tasklist li{
+    font-size: 16px;
+    margin: 7px;
+}
+.inputbox button{
+    padding: 7px 15px;
+  
+}
+.inputbox input{
+  
+    padding: 7px;
+}
+
+
+
+
+}
