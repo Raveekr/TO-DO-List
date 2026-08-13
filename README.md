@@ -34,4 +34,5 @@ localStorage.getItem()
 
 # Responsive design for all the devices
 
-<img width="1264" height="831" alt="image" src="https://github.com/user-attachments/assets/7450fb28-bcfc-44a3-b73f-a5770f658245" />
+<img width="1309" height="817" alt="image" src="https://github.com/user-attachments/assets/13738fdb-9acc-473c-a260-fe414bec5a9c" />
+
